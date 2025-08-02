@@ -1,1 +1,3 @@
-console.log("hello world")
+const helloWorld = require("./dir/helloWorld");
+const a = helloWorld.helloWorld();
+console.log(a);
